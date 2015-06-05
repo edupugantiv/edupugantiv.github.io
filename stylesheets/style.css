@@ -1,0 +1,45 @@
+body {
+      text-align: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("https://brianvancise.files.wordpress.com/2015/01/cape-town-south-africa.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: center;
+      color: white;
+      font-family: 'Bitter', serif; 
+      max-width: 800px;
+      margin: 0 auto;
+      }
+
+    p {
+      background: rgba(194, 223, 255, 0.4);
+      margin: 10px
+      font-size: 20px;
+      padding: 10px;
+      border-radius: 20px;
+      word-wrap: break-word;
+
+      }
+    
+    img {
+      height: 100px;
+      width: 100px;
+      border-radius: 100%;
+}
+    h1 {
+    font-family: 'Bitter', serif;
+    }
+    
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px; 
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  div {
+    margin: 20px 12px 0 12px; 
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
